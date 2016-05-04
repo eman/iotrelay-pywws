@@ -31,4 +31,6 @@ class Poll(object):
                 continue
             self.last_ts = data['idx']
             for key in self.keys:
+                if not data[key]:
+                    continue
                 yield Reading(READING_TYPE, data[key], data['idx'], key)
