@@ -1,4 +1,4 @@
-IoT Relay - pywws version
+IoT Relay - pywws
 ==================================
 Release v1.0.1
 
@@ -8,4 +8,5 @@ pip install iotrelay-pywws
 
 
 
-See http://jim-easterbrook.github.io/pywws/doc/en/html/index.html more on pywws.
+See http://jim-easterbrook.github.io/pywws/doc/en/html/index.html for
+more on pywws.
