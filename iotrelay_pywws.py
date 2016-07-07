@@ -8,7 +8,7 @@ import datetime
 from iotrelay import Reading
 from pywws import DataStore
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 logger = logging.getLogger(__name__)
 

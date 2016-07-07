@@ -10,7 +10,7 @@ for rst in ('README.rst', 'LICENSE.rst'):
         long_descriptions.append(f.read())
 
 setup(name='iotrelay-pywws',
-      version='1.0.1',
+      version='1.0.2',
       description='pywws source module for iotrelay',
       long_description='\n\n'.join(long_descriptions),
       author='Emmanuel Levijarvi',
